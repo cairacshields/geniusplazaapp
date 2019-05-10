@@ -3,7 +3,7 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class UserResponse {
-        @SerializedName("lastName")
+        @SerializedName("last_name")
         @Expose
         private String lastName;
         @SerializedName("first_name")
