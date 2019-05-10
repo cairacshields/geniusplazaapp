@@ -9,11 +9,11 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class UserDataApi {
 
-    private val BASE_URL = "https://reqres.in/api/users/"
+    private val BASE_URL = "https://reqres.in/api/"
 
     private var retrofit: Retrofit? = null
 
-    private fun getClient(context: Context): Retrofit {
+    fun getClient(context: Context): Retrofit {
 
         if(retrofit == null){
             retrofit = Retrofit.Builder()
